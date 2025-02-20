@@ -57,10 +57,9 @@ class Recipe(models.Model):
 
 
 class Category(models.Model):
-    name = models.CharField(
-        max_length=100, db_index=True, verbose_name='Категория')
-    slug = models.SlugField(
-        max_length=255, unique=True, db_index=True)
+    objects = None
+    name = models.CharField(max_length=100, db_index=True, verbose_name='Категория')
+    slug = models.SlugField(max_length=255, unique=True, db_index=True)
 
     class Meta:
         verbose_name = 'Категория'
@@ -74,6 +73,7 @@ class Category(models.Model):
 
 
 class TagPost(models.Model):
+    objects = None
     tag = models.CharField(max_length=100, db_index=True)
     slug = models.SlugField(max_length=255, unique=True, db_index=True)
 

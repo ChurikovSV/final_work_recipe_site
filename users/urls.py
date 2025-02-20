@@ -9,11 +9,8 @@ app_name = 'users'
 urlpatterns = [
     path('login/', views.LoginUser.as_view(), name='login'),
     path('logout/', LogoutView.as_view(), name='logout'),
-    path('password-change/', views.UserPasswordChange.as_view(),
-         name='password_change'),
-    path('password-change/done/', PasswordChangeDoneView.as_view(
-        template_name='users/password_change_done.html'),
-        name='password_change_done'),
+    path('password-change/', views.UserPasswordChange.as_view(), name='password_change'),
+    path('password-change/done/', PasswordChangeDoneView.as_view(template_name='users/password_change_done.html'), name='password_change_done'),
     path('password-reset/', PasswordResetView.as_view(
         template_name='users/password_reset_form.html',
         email_template_name='users/password_reset_email.html',

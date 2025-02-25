@@ -36,7 +36,7 @@ p.link-read-post {
 p.link-read-post a {
 	padding: 10px;
 	min-width: 100px;
-	background: #333671;
+	background: #ff69b4;
 	color: #fff;
 	text-decoration: none;
 }
@@ -76,7 +76,7 @@ ul.list-articles li {
 .clear {clear: both;}
 
 .header {
-	background: #046d85;
+	background: #c71585;
 	height: 60px;
 }
 
@@ -162,8 +162,8 @@ div.button {
 
 .left-chapters {
 	margin: 0;
-	background: #eee;
-	border-right: 1px solid #ccc;
+	background: rgba(255, 192, 203, 0.68);
+	border-right: 1px solid rgb(255, 192, 203);
 }
 .left-chapters ul {
 	width: 230px;
@@ -174,7 +174,7 @@ div.button {
 }
 .left-chapters ul li {
 	margin: 30px 0 0 0;
-	color: #999;
+	color: rgba(255, 192, 203, 0.84);
 }
 .left-chapters ul li.selected {color: #0059b2; }
 .left-chapters ul li a {
@@ -373,7 +373,7 @@ ul.lang-list li a:hover {color: #fdc073;}
 #footer {
 	box-sizing: border-box;
 
-	background: #3F4137;
+	background: rgb(219, 112, 147);
 	padding: 5px;
 	color: #aaa;
 	font-size: 14px;
@@ -383,7 +383,7 @@ ul.lang-list li a:hover {color: #fdc073;}
 }
 #footer a {
 	text-decoration: underline;
-	color: #aaa;
+	color: #505050;
 }
 
 .form-input {

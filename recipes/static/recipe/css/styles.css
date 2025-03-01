@@ -375,7 +375,7 @@ ul.lang-list li a:hover {color: #fdc073;}
 
 	background: rgb(219, 112, 147);
 	padding: 5px;
-	color: #aaa;
+	color: #3b3b3b;
 	font-size: 14px;
 	font-family: Verdana, Geneva, Arial, Helvetica;
 	text-align: left;
@@ -383,7 +383,7 @@ ul.lang-list li a:hover {color: #fdc073;}
 }
 #footer a {
 	text-decoration: underline;
-	color: #505050;
+	color: #000000;
 }
 
 .form-input {
